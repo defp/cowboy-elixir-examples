@@ -9,7 +9,6 @@ defmodule HelloWorld do
     ])
 
     {:ok, _} = :cowboy.start_http(:http, 100, [{:port, 3000}], [{:env, [{:dispatch, dispath}]}])
-
     HelloWorld.Supervisor.start_link
   end
 end
