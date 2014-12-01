@@ -1,0 +1,4 @@
+RestBasicAuth
+=============
+
+** TODO: Add description **
